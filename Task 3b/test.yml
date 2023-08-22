@@ -1,0 +1,11 @@
+- hosts: centos1
+  vars:
+    packages:
+    - "httpd"
+    - "wget"
+
+  tasks:
+  - yum:
+      name: "{{ item }}"
+      state: latest
+    with_items: "{{ packages }}"

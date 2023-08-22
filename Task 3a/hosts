@@ -1,0 +1,13 @@
+[centos]
+centos1 ansible_host=146.190.45.138 ansible_user=root
+centos2 ansible_host=137.184.236.152 ansible_user=root
+centos3 ansible_host=143.198.76.207 ansible_user=root
+centos4 ansible_host=164.92.101.101 ansible_user=root
+centos5 ansible_host=24.199.98.55 ansible_user=root
+centos6 ansible_host=54.204.152.144 ansible_user=centos
+centos7 ansible_host=54.164.138.217 ansible_user=centos
+centos8 ansible_host=34.229.100.60 ansible_user=centos
+centos9 ansible_host=54.92.188.153 ansible_user=centos
+centos10 ansible_host=3.92.57.116 ansible_user=centos
+
+

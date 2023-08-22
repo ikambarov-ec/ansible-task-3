@@ -1,0 +1,8 @@
+- hosts: all
+  tasks:
+  - name: Update /etc/hosts file
+    lineinfile:
+      path: /etc/hosts
+      line: "{{ hostvars[ item ].ansible_host }} {{ item }}"
+      create: yes
+    with_items: "{{ hostvars }}"
